@@ -10,7 +10,7 @@ const Input = ({ id, label, ...props }: InputProps) => {
     <div className="flex flex-col gap-1 text-white">
       {label && <label htmlFor={id}>{label}</label>}
       <input
-        className="border-white px-2 py-1 text-sm appearance-none rounded-md focus:outline-none"
+        className="border-white text-black px-2 py-1 text-sm appearance-none rounded-md focus:outline-none"
         id={id}
         {...props}
       />
